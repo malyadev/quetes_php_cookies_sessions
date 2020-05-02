@@ -7,11 +7,10 @@ if(empty($_SESSION['loginname']))
   exit();
 }
 
-var_dump($_SESSION);
-
+if (!empty($_GET['add_to_cart'])) {
+    $_SESSION['cart'] .= $_GET['add_to_cart']. ' ';
+}
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -60,9 +59,9 @@ var_dump($_SESSION);
                         </a>
                     </li>
                     <li>
-                        <a href="/login.php" class="btn btn-warning navbar-btn">
+                        <a href="/delog.php" class="btn btn-warning navbar-btn">
                             <span class="glyphicon" aria-hidden="true"></span>
-                            Login
+                            Delogin
                         </a>
                     </li>
                 </ul>

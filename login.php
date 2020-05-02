@@ -1,13 +1,17 @@
 <?php
+session_start();
 
-if(!empty($_POST['loginname']))
+if(!empty($_POST['loginname']) && (empty($_SESSION['loginname'])))
 {
-    session_start();
     $_SESSION['loginname'] = $_POST['loginname'];
     header('Location: index.php');
     exit();
 }
 
+if (!empty($_SESSION['loginname'])){
+    header('Location: index.php');
+    exit();
+}
 ?>
 
 <!DOCTYPE html>

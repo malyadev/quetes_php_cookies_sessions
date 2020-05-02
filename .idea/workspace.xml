@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16798f86-65b2-4604-9f45-b054dfdbfb24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/delog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +62,33 @@
       <workItem from="1587307862305" duration="2054000" />
       <workItem from="1588402991120" duration="644000" />
       <workItem from="1588405323438" duration="999000" />
-      <workItem from="1588407356203" duration="1905000" />
+      <workItem from="1588407356203" duration="10313000" />
     </task>
+    <task id="LOCAL-00001" summary="init repo début des sessions">
+      <created>1588410985254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588410985254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init repo début des sessions" />
+    <option name="LAST_COMMIT_MESSAGE" value="init repo début des sessions" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1480" y="335" key="CommitChangelistDialog2" timestamp="1588410985098">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1480" y="335" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1588410985098" />
+    <state x="1705" y="662" key="NewPhpFileDialog" timestamp="1588411464362">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1705" y="662" key="NewPhpFileDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1588411464362" />
   </component>
 </project>
