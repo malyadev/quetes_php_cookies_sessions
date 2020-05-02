@@ -1,3 +1,18 @@
+<?php
+session_start();
+
+if(empty($_SESSION['loginname']))
+{
+  header('Location: login.php');
+  exit();
+}
+
+var_dump($_SESSION);
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,11 +59,17 @@
                             Cart
                         </a>
                     </li>
+                    <li>
+                        <a href="/login.php" class="btn btn-warning navbar-btn">
+                            <span class="glyphicon" aria-hidden="true"></span>
+                            Login
+                        </a>
+                    </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
     <div class="container-fluid text-right">
-        <strong>Hello Wilder !</strong>
+        <strong>Hello <?= $_SESSION['loginname'] ?> !</strong>
     </div>
 </header>
